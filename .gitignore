@@ -2,3 +2,6 @@
 build/
 .cache/
 Cargo.lock
+.cargo/
+.helix/
+!.heilx/ignore
