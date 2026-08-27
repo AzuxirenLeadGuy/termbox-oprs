@@ -33,7 +33,7 @@ pub struct TbEvent {
     pub pos_x: i32,
     pub pos_y: i32,
 }
-#[link(name = "termboxop", kind = "static")]
+
 unsafe extern "C" {
     pub fn tb_init() -> i32;
 
