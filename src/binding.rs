@@ -21,6 +21,12 @@ pub enum EventCode {
     Resize = 2,
     Mouse = 3,
 }
+#[repr(u32)]
+#[derive(Debug, Copy, Clone, Hash, PartialEq, Eq)]
+pub enum Modifier {
+    Alt = 1,
+    Motion = 2,
+}
 #[repr(C)]
 #[derive(Debug, Copy, Clone, Default)]
 pub struct TbEvent {
