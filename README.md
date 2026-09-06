@@ -1,3 +1,3 @@
 # Termbox OPRS
 
-This is a rust wrapper for the termbox library
+This is a rust wrapper for my custom fork of the termbox library.
